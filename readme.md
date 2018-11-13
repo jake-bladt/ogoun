@@ -16,9 +16,9 @@ Ogoun is a distributed framework for finding and processing assets on the World 
 
 ```javascript
 {
-  contract-name: "store in s3",
-  assets-required: "$s3-bucket",
-  action: "store"
+  "contract-name": "store in s3",
+  "assets-required": "$s3-bucket",
+  "action": "store"
 }
 ```
 
@@ -26,8 +26,8 @@ Ogoun is a distributed framework for finding and processing assets on the World 
 {
   contract-name: "find-links",
   handle-assets: {
-    asset-type": "link",
-	handler: "store in s3"
+    "asset-type": "link",
+	"handler": "store in s3"
   }
 }
 ```
