@@ -26,8 +26,8 @@ AND
 
 ```javascript
 {
-  contract-name: "find-links",
-  handle-assets: {
+  "contract-name": "find-links",
+  "handle-assets": {
     "asset-type": "link",
 	"handler": "store in s3"
   }
