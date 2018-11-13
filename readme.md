@@ -10,6 +10,10 @@ Ogoun is a distributed framework for finding and processing assets on the World 
 * a deploy script
 * a teardown script
 
+## Core functioning
+
+At its core, Ogoun runs a retrieve-analyze-process loop. A typical task would be to retrieve the text of a web page, find all the links in that page, and queue new jobs to recurse through those links.
+
 ## Usage
 
 * A user logs into the site and creates a contract for handling a particular type of asset. This may include calls to other contracts for assets discovered during handling. For example:
