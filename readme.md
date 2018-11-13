@@ -22,6 +22,8 @@ Ogoun is a distributed framework for finding and processing assets on the World 
 }
 ```
 
+AND
+
 ```javascript
 {
   contract-name: "find-links",
