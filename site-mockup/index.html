@@ -26,6 +26,7 @@
                 <li>image-link</li>
                 <li>image</li>
                 <li>text</li>
+                <li>storage-target</li>
                 <li>unknown</li>
             </ul>
         </div>
@@ -36,5 +37,54 @@
                 <li>Get images to depth</li>
             </ul>
         </div>
+
+        <h2>Work</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Description</td>
+                    <td>Enqueued</td>
+                    <td>Enqueued By</td>
+                    <td>Owner</td>
+                    <td>Status</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Job/177793</td>
+                    <td>Get text to depth http://news.google.com 3</td>
+                    <td>18 seconds ago</td>
+                    <td>User/jake</td>
+                    <td>User/jake</td>
+                    <td>Waiting on children</td>
+                </tr>
+                <tr>
+                    <td>Task/5139093</td>
+                    <td>RETRIEVE http://news.google.com</td>
+                    <td>18 seconds ago</td>
+                    <td>Job/177793</td>
+                    <td>User/jake</td>
+                    <td>Complete</td>
+                </tr>
+                <tr>
+                    <td>Task/5139094</td>
+                    <td>PARSE http://news.google.com</td>
+                    <td>16 seconds ago</td>
+                    <td>Job/177793</td>
+                    <td>User/jake</td>
+                    <td>Complete</td>
+                </tr>
+                <tr>
+                    <td>Job/177806</td>
+                    <td>Get text to depth http://www.wsj.com/features/the-beach-ball-bounce 2</td>
+                    <td>14 seconds ago</td>
+                    <td>Job/177793</td>
+                    <td>User/jake</td>
+                    <td>Waiting on children</td>
+                </tr>
+            </tbody>
+        </table>
+
     </body>
 </html>
