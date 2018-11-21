@@ -13,8 +13,6 @@ def lambda_handler(event, context):
     qmessage["url"] = url
     qmessage["depth"] = depth
     
-    print(json.dumps(qmessage))
-    
     print(SQS_CLIENT.send_message(
         QueueUrl=queue_url,
         MessageBody=json.dumps(qmessage)
