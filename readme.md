@@ -40,6 +40,7 @@ AND
 
 ## Resource Links
 
+* [Lambda with SQS Example](https://docs.aws.amazon.com/lambda/latest/dg/with-sqs-example.html)
 * [Authenication in Node with Passport JS](https://medium.freecodecamp.org/learn-how-to-handle-authentication-with-node-using-passport-js-4a56ed18e81e)
 * [Common ways to create Lambda functions](https://medium.freecodecamp.org/aws-lambda-offering-developers-ultimate-flexibility-d8939ff4220)
 * [Learn Lambda](https://github.com/dwyl/learn-aws-lambda#hello-world-example-api-gateway)
