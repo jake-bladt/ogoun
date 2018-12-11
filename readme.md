@@ -45,3 +45,4 @@ AND
 * [Common ways to create Lambda functions](https://medium.freecodecamp.org/aws-lambda-offering-developers-ultimate-flexibility-d8939ff4220)
 * [Learn Lambda](https://github.com/dwyl/learn-aws-lambda#hello-world-example-api-gateway)
 * [Create and upload a Lambda function in node](http://dev.splunk.com/view/event-collector/SP-CAAAE6Z)
+* [Create a web scraper in Python from start to finish](https://hackernoon.com/building-a-web-scraper-from-start-to-finish-bb6b95388184)
